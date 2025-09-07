@@ -1,1 +1,46 @@
-ECHO is on.
+{
+  "expo": {
+    "name": "Wonder",
+    "slug": "wonder-ios",
+    "scheme": "wonder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "allowImportingTsExtensions": true,
+    "platforms": [
+      "ios"
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.wonder",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to let you upload a selfie to find lookalike matches.",
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to let you upload a picture for matching.",
+        "NSPhotoLibraryAddUsageDescription": "This app may save a profile or avatar photo to your library."
+      }
+    },
+    "userInterfaceStyle": "light",
+    "extra": {
+      "eas": {
+        "projectId": "YOUR-EAS-PROJECT-ID"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  },
+  "compilerOptions": {},
+  "extends": "expo/tsconfig.base"
+}

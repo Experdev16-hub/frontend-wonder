@@ -1,1 +1,46 @@
-ECHO is on.
+{
+  "expo": {
+    "name": "Wonder",
+    "slug": "wonder-ios",
+    "scheme": "wonder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "web",
+      "android"
+    ],
+    "icon": "",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.wonder",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to let you upload a selfie to find lookalike matches.",
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to let you upload a picture for matching.",
+        "NSPhotoLibraryAddUsageDescription": "This app may save a profile or avatar photo to your library."
+      }
+    },
+    "userInterfaceStyle": "light",
+    "extra": {
+      "eas": {
+        "projectId": "e5bbfcd9-a1bd-4ec0-806c-b5380e3dd76d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "owner": "fluxdev3"
+  }
+}

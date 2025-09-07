@@ -48,7 +48,7 @@ export const MatchProvider: React.FC<{ children: ReactNode }> = ({ children }) =
   const showMatchAlert = (matchedUserName: string) => {
     Alert.alert(
       'New Match! 💕',
-      You and ${matchedUserName} liked each other!,
+      `You and ${matchedUserName} liked each other!`,
       [
         {
           text: 'Start Chatting',
