@@ -21,7 +21,7 @@
     "axios": "^1.6.7",
     "babel-plugin-dotenv-import": "^3.0.1",
     "babel-preset-expo": "^10.0.0",
-    "expo": "~50.0.6",
+    "expo": "50",
     "expo-apple-authentication": "~6.3.0",
     "expo-camera": "~14.1.1",
     "expo-constants": "~15.4.6",
