@@ -17,7 +17,6 @@ import { MatchProvider } from './src/store/MatchContext';
 
 
 
-// Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
